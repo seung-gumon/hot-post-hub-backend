@@ -3,7 +3,6 @@
     "module": "commonjs",
     "target": "es2017",
     "outDir": "dist",
-
     "noImplicitAny": true,
     "strictPropertyInitialization": true,
     "moduleResolution": "node",
@@ -16,6 +15,6 @@
     "allowSyntheticDefaultImports": true,
     "typeRoots": ["@types", "node_modules/@types"]
   },
-  "include": ["./src/**/*", "DTO/*", "util/*"],
-  "exclude": ["src/**/*.spec.ts", "src/**/*.test.ts", "node_modules"]
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
 }

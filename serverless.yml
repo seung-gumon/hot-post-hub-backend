@@ -13,11 +13,12 @@ provider:
 
 functions:
   hello:
-    handler: handler.hello
+    handler: src/handler.hello
     events:
       - http:
           path: hello
           method: get
 
-plugin:
+plugins:
   - serverless-plugin-typescript
+  - serverless-offline
