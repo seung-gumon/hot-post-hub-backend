@@ -1,6 +1,11 @@
 {
+  "scripts": {
+    "dev": "serverless offline start --stage dev",
+    "deploy": "serverless deploy --stage prod"
+  },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.122",
+    "serverless-dynamodb-local": "^0.2.40",
     "serverless-offline": "^13.1.2",
     "serverless-plugin-typescript": "^2.1.5",
     "typescript": "^5.2.2"
